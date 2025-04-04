@@ -1,64 +1,34 @@
-# lit-shelf
+## Usage
 
-This template should help get you started developing with Vue 3 in Vite.
+Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
 
-## Recommended IDE Setup
+This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```bash
+$ npm install # or pnpm install or yarn install
 ```
 
-### Compile and Hot-Reload for Development
+### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
 
-```sh
-npm run dev
-```
+## Available Scripts
 
-### Type-Check, Compile and Minify for Production
+In the project directory, you can run:
 
-```sh
-npm run build
-```
+### `npm run dev` or `npm start`
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-```sh
-npm run test:unit
-```
+The page will reload if you make edits.<br>
 
-### Run End-to-End Tests with [Playwright](https://playwright.dev)
+### `npm run build`
 
-```sh
-# Install browsers for the first run
-npx playwright install
+Builds the app for production to the `dist` folder.<br>
+It correctly bundles Solid in production mode and optimizes the build for the best performance.
 
-# When testing on CI, must build the project first
-npm run build
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-# Runs the end-to-end tests
-npm run test:e2e
-# Runs the tests only on Chromium
-npm run test:e2e -- --project=chromium
-# Runs the tests of a specific file
-npm run test:e2e -- tests/example.spec.ts
-# Runs the tests in debug mode
-npm run test:e2e -- --debug
-```
+## Deployment
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
