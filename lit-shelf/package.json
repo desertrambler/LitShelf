@@ -1,23 +1,20 @@
 {
-  "name": "vite-template-solid",
+  "name": "lit-shelf",
+  "private": true,
   "version": "0.0.0",
-  "description": "",
   "type": "module",
   "scripts": {
-    "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
   },
-  "license": "MIT",
   "devDependencies": {
-    "sass-embedded": "^1.86.3",
-    "typescript": "^5.7.2",
-    "vite": "^6.0.0",
-    "vite-plugin-solid": "^2.11.6"
-  },
-  "dependencies": {
-    "bootstrap": "^5.3.5",
-    "solid-js": "^1.9.5"
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "@tsconfig/svelte": "^5.0.4",
+    "svelte": "^5.20.2",
+    "svelte-check": "^4.1.4",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
   }
 }
