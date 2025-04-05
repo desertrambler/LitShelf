@@ -1,0 +1,28 @@
+.navbar {
+	background-color: #2D6A4F;
+}
+
+.button-primary a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.login-image {
+	border-radius: 50%;
+}
+
+button.btn-primary.btn-primary-custom {
+	padding: 10px;
+	background-color: #2D6A4F;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+
+/*
+$primary-color: #2D6A4F;
+$secondary-color: #F59E0B;
+$background-color: #FAF3E0;
+$dark-mode-background-color: #1a1a1a;
+*/
