@@ -7,7 +7,7 @@
     <button class="lg:hidden text-white" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="lg:flex hidden" id="navbarNav">
+    <div class="lg:flex hidden">
       <ul class="flex space-x-4">
         <li>
           <a class="text-white" href="#">Home / Dashboard</a>
