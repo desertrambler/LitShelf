@@ -47,15 +47,12 @@
                   </div>
                   <div class="form-check">
                       <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    <label class="form-check-label" for="exampleCheck1">Remember Me?</label>
                   </div>
                   <button type="submit" class="btn btn-primary btn-primary-custom">Submit</button>
                 </form>
                 <div>
-                  <button class="button-primary" 
-                    style="margin-top: 20px;" 
-                    id="registerButton">Register
-                  </button>
+                  <button class="btn btn-primary btn-primary-custom" style="margin-top: 20px;">Register</button>
                 </div>
             </div>
         </div>
