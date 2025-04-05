@@ -8,26 +8,13 @@ html, body, .app-container {
 	background-color: $primary-color;
 }
 
-.navbar a:hover:not(:first-child) {
-    background-color: #F59E0B;
-}
-
 .button-primary a {
 	text-decoration: none;
 	color: inherit;
 }
 
 .login-image {
-	width: 50%;
-	height: auto;
 	border-radius: 50%;
-}
-
-.login-form {
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
-	width: 250px;
 }
 
 .input-field {
@@ -36,19 +23,15 @@ html, body, .app-container {
 	border-radius: 5px;
 }
 
-.login-button {
+button.btn-primary.btn-primary-custom {
 	padding: 10px;
 	background-color: $primary-color;
 	color: white;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
-}
+  }
 
 .login-button:hover {
 	background-color: $secondary-color;
 }  
-
-.login-header-container {
-	font-size: 1rem;
-}

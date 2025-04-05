@@ -27,32 +27,40 @@ const App: Component = () => {
           </ul>
         </div>
       </nav>
-
       <div class="container">
         <h1 class="text-center">LitShelf</h1>
-        <div class="d-flex justify-content-around align-items-center">
-          <div class="d-flex justify-content-center align-items-center">
-            <img src={robot} alt="We love to read" class="login-image"/>
-          </div>
-          <div class="d-flex justify-content-center align-items-center">
-            <div class="d-flex flex-column">
-                <div class="login-header-container d-flex justify-content-center align-items-center">
-                  <h2>Login</h2>
-                </div>
-                <form class="login-form" id="login-form" method="post" action="/login">
-                  <input type="text" placeholder="Username" name="username" class="input-field" required/>
-                  <input type="password" placeholder="Password" name="password" class="input-field" required/>
-                  <button class="login-button button-primary" type="submit" id="loginButton">Login</button>
-                </form>
-                <div>
-                  <button class="button-primary" 
-                    style="margin-top: 20px;" 
-                    id="registerButton">Register
-                  </button>
+        <div class="d-flex flex-column justify-content around align-items-center">
+          <div class="d-flex justify-content-around align-items-center">
+              <img src={robot} alt="We love to read" class="login-image w-25"/>
+                <div class="d-flex flex-column">
+                    <div class="login-header-container d-flex justify-content-center align-items-center">
+                      <h2>Login</h2>
+                    </div>
+                    <form>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
+                      </div>
+                      <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div>
+                      <button type="submit" class="btn btn-primary btn-primary-custom">Submit</button>
+                    </form>
+                    <div>
+                      <button class="button-primary" 
+                        style="margin-top: 20px;" 
+                        id="registerButton">Register
+                      </button>
+                    </div>
                 </div>
             </div>
           </div>
-        </div>
       </div>
     </div>
   );
