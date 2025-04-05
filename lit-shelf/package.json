@@ -17,7 +17,7 @@
     "vite-plugin-solid": "^2.11.6"
   },
   "dependencies": {
-    "bulma": "^1.0.3",
+    "bootstrap": "^5.3.5",
     "solid-js": "^1.9.5"
   }
 }
